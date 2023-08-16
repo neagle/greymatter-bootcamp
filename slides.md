@@ -11,8 +11,9 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 drawings:
   persist: false
-transition: slide-left
-title: Welcome to Slidev
+transition: fade
+title: Greymatter Bootcamp
+layout: cover
 ---
 
 # Greymatter Bootcamp
@@ -24,11 +25,11 @@ title: Welcome to Slidev
 @src: slides/day-1/industry-profile-and-challenges.md
 @src: slides/day-1/greymatter-overview.md
 @src: slides/day-1/greymatter-components.md
-@src: slides/day-1/centralized-configuration-management.md
 @src: slides/day-1/greymatter-demo.md
 
 @src: slides/common/break.md
 
+@src: slides/day-1/gitops.md
 @src: slides/day-1/greymatter-install.md
 @src: slides/day-1/control-plane.md
 @src: slides/day-1/data-plane.md
@@ -39,7 +40,6 @@ title: Welcome to Slidev
 @src: slides/common/lunch.md
 
 @src: slides/day-1/operator.md
-@src: slides/day-1/gitops.md
 @src: slides/day-1/prerequisites.md
 @src: slides/day-1/procedure-for-aws.md
 @src: slides/day-1/procedure-for-azure.md

@@ -1,8 +1,10 @@
 ---
-layout: two-cols
+layout: two-cols-header
 ---
 
 # Industry Profile and Challenges
+
+::left::
 
 The benefits are clear: while a monolithic architecture is hard to develop and maintain, an API- and microservice-based architecture allows for greater agility, is easier to maintain, and is less costly in the long run.
 
@@ -26,8 +28,11 @@ This leads to 3 main challenges that must be addressed:
 3. Management and Monitoring
 
 ---
-layout: image-right
-image: ./images/hype-cycle-zero-trust-networking-2023.png
+layout: two-cols
 ---
 
 What should we include related to the Hype Cycle? 
+
+::right::
+
+<img src="/slides/day-1/images/hype-cycle.png" />

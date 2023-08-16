@@ -1,8 +1,7 @@
 ---
-layout: default
+header: Introduction
 ---
 
-# Introduction
 
 ## Instructor, Attendees:
 

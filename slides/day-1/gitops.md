@@ -1,8 +1,27 @@
-# GitOps
+---
+layout: two-cols-header
+header: "GitOps"
+---
+
+
+::left::
+
+<div class="smaller">
 
 GitOps is a modern approach to software development and operations that emphasizes using Git as the single source of truth for defining, managing, and automating the entire software delivery lifecycle. It originated from the Cloud Native ecosystem and is commonly used in conjunction with Kubernetes and other container orchestration platforms.
 
+</div>
+
+::right::
+
+<div class="smaller">
+
 In a GitOps workflow, all the configuration, infrastructure code, application code, and deployment specifications are version-controlled in a Git repository. The desired state of the system is defined in these Git repositories, and any changes to the system are made through pull requests and commits to these repositories. The operational aspects of the system are automated, with Git as the central trigger for changes to be applied to the running environment.
+
+</div>
+
+::footer::
+
 
 ```mermaid {theme: 'neutral'}
 graph LR

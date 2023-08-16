@@ -1,7 +1,12 @@
-# Agenda
+---
+header: Agenda
+---
 
-1. Overview
-2. Core Install
-3. Tenant Deployment and Advanced Configurations
-4. Upgrades and Troubleshooting
-5. Multi-Cloud and High Availability (HA) Deployments
+
+<div class="agenda day1">
+
+1. Overview and Core Install
+2. Core and Advanced Configurations
+3. Tenant Deployment and Configurations
+
+</div>

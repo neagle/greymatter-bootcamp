@@ -4,6 +4,8 @@
   --slidev-theme-primary: #00B42B;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
@@ -27,3 +29,76 @@
   }
 }
 
+.smaller {
+  font-size: 0.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins, sans-serif;
+}
+
+li {
+  line-height: 1.2 !important;
+  padding: 0.5em 0.3em !important;
+}
+
+ul li {
+  padding-left: 0.3em !important;
+}
+
+.compact li {
+  font-size: 0.9em;
+  padding: 0.2em 0.3em !important;
+}
+
+ul li::marker{
+  content: "⇢";
+}
+
+.agenda {
+  ol {
+    margin-left: 50px;
+  }
+  ol li::marker {
+    color: var(--slidev-theme-primary);
+    content: counter(list-item) " ";
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  /* &.day1 ol li:nth-child(1)::marker,
+  &.day2 ol li:nth-child(2)::marker,
+  &.day3 ol li:nth-child(3)::marker,
+  &.day4 ol li:nth-child(4)::marker,
+  &.day5 ol li:nth-child(5)::marker,
+  &.day6 ol li:nth-child(6)::marker,
+  &.day7 ol li:nth-child(7)::marker,
+  &.day8 ol li:nth-child(8)::marker,
+  &.day9 ol li:nth-child(9)::marker,
+  &.day10 ol li:nth-child(10)::marker {
+    content: "Day " counter(list-item) " ";
+  } */
+
+  &.day1 ol li:nth-child(1),
+  &.day2 ol li:nth-child(2),
+  &.day3 ol li:nth-child(3),
+  &.day4 ol li:nth-child(4),
+  &.day5 ol li:nth-child(5),
+  &.day6 ol li:nth-child(6),
+  &.day7 ol li:nth-child(7),
+  &.day8 ol li:nth-child(8),
+  &.day9 ol li:nth-child(9),
+  &.day10 ol li:nth-child(10) {
+    font-weight: bold;
+    &::marker {
+      content: "Day " counter(list-item) " ";
+    }
+  }
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

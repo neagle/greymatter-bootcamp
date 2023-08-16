@@ -1,12 +1,21 @@
 ---
-layout: two-cols
 ---
 
 # Greymatter Overview
 
-Greymatter is a unified Application Networking Platform combines service mesh, API management and infrastructure automation with IT operations intelligence to reduce complexity, ensure security, enforce compliance and optimize performance for applications, APIs, and services.
 
+Greymatter is a unified Application Networking Platform that combines service mesh, API management and infrastructure automation with IT operations intelligence to reduce complexity, ensure security, enforce compliance and optimize performance for applications, APIs, and services.
+
+
+---
+layout: two-cols
+---
+
+
+<img src="/slides/day-1/images/greymatter-overview.png" />
 ::right::
+
+<div class="compact">
 
 * Simplify with repeatable install
 	* Greymatter Operator
@@ -22,6 +31,8 @@ Greymatter is a unified Application Networking Platform combines service mesh, A
 * Empower Platform Engineering
 	* Manage complex distributed microservice systems.
 
+</div>
+
 ---
 
 The Greymatter application networking platform is meticulously designed to overcome these challenges by reducing complexity, enhancing security, maximizing performance, and enabling smarter decision-making. It achieves this mission through four main components offered out-of-the-box:
@@ -30,5 +41,3 @@ The Greymatter application networking platform is meticulously designed to overc
 2. Identity-aware Networking
 3. User Audit Streams and Live System/API Telemetry
 4. Operations Dashboard for Application Networking Platform
-
-## Add additional detail for each numbered item from marketing [here](https://greymatter.atlassian.net/wiki/spaces/Marketing/pages/127401985/Answering+Common+Greymatter+Questions#What-is-Greymatter-and-What-Challenges-Does-it-Solve%3F), suggest one slide per number

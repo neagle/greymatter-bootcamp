@@ -1,13 +1,13 @@
 <template>
-  <CommonLayout>
+  <Container>
     <div class="slidev-layout intro">
       <div class="my-auto">
         <slot />
       </div>
     </div>
-  </CommonLayout>
+  </Container>
 </template>
 
 <script setup>
-import CommonLayout from './common-layout.vue'
+import Container from './container.vue'
 </script>

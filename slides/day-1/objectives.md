@@ -1,4 +1,6 @@
-# Objectives
+---
+header: Objectives
+---
 
 ## At the end of this week, you will be able to:
 
